@@ -1,0 +1,106 @@
+body {
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 864px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.grid {
+  float: left;
+  width: 288px;
+  height: 480px;
+  margin: 200px 0;
+}
+
+.grid_interno {
+  width: 210px;
+  height: 400px;
+  margin: 40px 39px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+  padding-top: 0px;
+}
+
+.orange {
+  background: hsl(31, 77%, 52%);
+  border-radius: 9px 0 0 9px;
+}
+
+.cyan {
+  background: hsl(184, 100%, 22%);
+}
+
+.dark_cyan {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 9px 9px 0;
+}
+
+.button {
+  background: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  border: 2px solid #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.button:hover {
+  background: none;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button_orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.button_cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.button_darkcyan {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  clear: both;
+}
+
+@media only screen and (max-width: 889px) {
+  .container {
+      width: 288px;
+      position: relative;
+  }
+
+  .grid {
+      width: 288px;
+      height: 480px;
+      margin: 0px;
+  }
+
+  .orange {
+      border-radius: 9px 9px 0 0 ;
+      margin-top: 35px;
+  }
+
+  .dark_cyan {
+
+      border-radius: 0 0 9px 9px;
+      margin-bottom: 35px;
+  }
+}
